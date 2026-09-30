@@ -1,6 +1,6 @@
 from api.models.users import CreateUser , UpdateUser
 from api.database.config import users
-from api.utils.responses import ResponseSuccess , ResponseFailure
+from api.utils.response import ResponseSuccess , ResponseFailure
 from bson import ObjectId
 
 async def createUser(data: CreateUser): 

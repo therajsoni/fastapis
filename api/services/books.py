@@ -1,6 +1,6 @@
 from api.models.books import CreateBook , UpdateBook
 from api.database.config import books
-from api.utils.responses import ResponseSuccess , ResponseFailure
+from api.utils.response import ResponseSuccess , ResponseFailure
 from bson import ObjectId
 
 async def createBook(data: CreateBook):
